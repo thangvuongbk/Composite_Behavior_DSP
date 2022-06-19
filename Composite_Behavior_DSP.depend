@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1655647631 source:d:\10_workingspace\09_codeblock_ws\01_designpattern_study\composite_behavior_dsp\main.cpp
+	<iostream>
+	<iostream>
+	"IComponent.h"
+	"Leaf.h"
+	"Composite.h"
+
+1655647484 source:d:\10_workingspace\09_codeblock_ws\01_designpattern_study\composite_behavior_dsp\src\composite.cpp
+	"Composite.h"
+	<iostream>
+	<string>
+
+1655638475 d:\10_workingspace\09_codeblock_ws\01_designpattern_study\composite_behavior_dsp\include\composite.h
+	"../IComponent.h"
+	<list>
+
+1655636339 source:d:\10_workingspace\09_codeblock_ws\01_designpattern_study\composite_behavior_dsp\src\leaf.cpp
+	"Leaf.h"
+	<iostream>
+	<string>
+
+1655636347 d:\10_workingspace\09_codeblock_ws\01_designpattern_study\composite_behavior_dsp\include\leaf.h
+	"../IComponent.h"
+
+1655636543 d:\10_workingspace\09_codeblock_ws\01_designpattern_study\composite_behavior_dsp\icomponent.h
+	<string>
+
