@@ -45,5 +45,14 @@ int main()
 
     complexClientCode(root, simple);
 
+    delete simple;
+    delete root;
+    delete branch1;
+    delete branch2;
+    delete branch3;
+    delete leaf1;
+    delete leaf2;
+    delete leaf3;
+
     return 0;
 }
