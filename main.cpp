@@ -33,12 +33,15 @@ int main()
     IComponent* leaf1 = new Leaf();
     IComponent* leaf2 = new Leaf();
     IComponent* leaf3 = new Leaf();
+    IComponent* smallleaf1 = new SmallerLeaf();
 
     branch1->AddComp(leaf1);
     branch1->AddComp(leaf1);
     branch1->AddComp(branch3);
 
     branch2->AddComp(leaf3);
+
+    branch3->AddComp(smallleaf1);
 
     root->AddComp(branch1);
     root->AddComp(branch2);

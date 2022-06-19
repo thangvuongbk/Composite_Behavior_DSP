@@ -20,4 +20,17 @@ class Leaf : public IComponent
     private:
 };
 
+class SmallerLeaf : public Leaf
+{
+    public:
+        SmallerLeaf();
+        virtual ~SmallerLeaf();
+
+        virtual std::string Operation() override;
+
+    protected:
+
+    private:
+};
+
 #endif // LEAF_H

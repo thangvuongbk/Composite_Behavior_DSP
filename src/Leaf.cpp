@@ -20,3 +20,22 @@ std::string Leaf::Operation()
     cout << "Leaving func: " << __func__ << endl;
     return "Leaf";
 }
+
+
+//======================
+
+SmallerLeaf::SmallerLeaf()
+{
+    cout << "ctor: " << __func__ << endl;
+}
+
+SmallerLeaf::~SmallerLeaf()
+{
+    cout << "dtor: " << __func__ << endl;
+}
+std::string SmallerLeaf::Operation()
+{
+    cout << "Entering func: " << __func__ << endl;
+    cout << "Leaving func: " << __func__ << endl;
+    return "SmallerLeaf";
+}
